@@ -153,12 +153,25 @@ input, select, textarea {
 	}
 
 
+
+header.major, h4, h6, h2 , .statistics_header h5 strong{
+		font-family: 'Source Sans Pro', sans-serif !important;
+
+	}
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", sans-serif !important;
+		font-family: 'Raleway', sans-serif !important;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
 	}
+#main #experince p {
+		
+		font-size: 18px !important;
+		
+	}
+
+
+
 
 	
 	@media screen and (max-width: 1680px) {
@@ -2698,7 +2711,7 @@ input, select, textarea {
 				}
 
 		header.major p {
-			font-size: 1.25em;
+			font-size: 18px;
 			letter-spacing: -0.025em;
 		}
 

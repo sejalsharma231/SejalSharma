@@ -75,7 +75,7 @@ input, select, textarea {
 	}
 
 	body {
-		-ms-overflow-style: scrollbar;
+		-ms-overflow-style: "scrollbar";
 	}
 
 	@media screen and (max-width: 480px) {
@@ -311,7 +311,7 @@ header.major, h4, h6, h2 , .statistics_header h5 strong{
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Cousine', monospace;
+		font-family: "Cousine', monospace";
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -3364,9 +3364,9 @@ header.major, h4, h6, h2 , .statistics_header h5 strong{
 		/* border-radius: 0.25em; */
 	}
 .bars {
-	background: #4b6cb7; !important;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #182848, #4b6cb7); !important;  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to top, #182848, #4b6cb7); !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #4b6cb7 !important;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #182848, #4b6cb7) !important;  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #182848, #4b6cb7) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 		color: #636363;
 		/* border-radius: 0.25em; */
@@ -3454,7 +3454,7 @@ header.major, h4, h6, h2 , .statistics_header h5 strong{
 		background-color: transparent;
 			box-shadow: inset 0 0 0 1px #dddddd;
 			color: white !important;
-			margin-left: 18px;
+			/* margin-left: 18px; */
 }
 			#main input[type="submit"]:hover,
 			#main input[type="reset"]:hover,
@@ -3775,9 +3775,9 @@ header.major, h4, h6, h2 , .statistics_header h5 strong{
 		flex-wrap: wrap;
 		padding: 5em 5em 3em 5em ;
 		width:100%;
-		background: #4b6cb7; !important;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7); !important;  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to bottom, #182848, #4b6cb7); !important; 
+		background: #4b6cb7 !important;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7) !important;  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to bottom, #182848, #4b6cb7) !important; 
 	}
 #footer h1,#footer h2,#footer h3,#footer h4,#footer h5,#footer h6,#footer p{
 	color:#ffffff;
@@ -3980,3 +3980,33 @@ a.navbar-brand.active.scrolled{
 .navbar-toggler{
 	border-color: black;
 }
+
+
+.chip {
+	display: inline-block;
+	padding: 0 25px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	border-radius: 25px;
+	background-color: #f1f1f1;
+	margin: 0 0 10px 0;
+
+  }
+  
+  .chip img {
+	float: left;
+	margin: 0 10px 0 -25px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+  }
+
+  .chip-list{
+	padding: 10px 10px 0 10px;
+  }
+
+  .skill-list {
+	width: max-content;
+
+  }

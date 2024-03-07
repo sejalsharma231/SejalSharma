@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/sejalsharma/sejalsharma/index.html"
+            "file": "/Users/sejalsharma/code/sejalsharma/index.html"
         }
     ]
 }
